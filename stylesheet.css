@@ -1,0 +1,101 @@
+*{
+	font-family: Verdana, sans-serif;
+	padding: 0;
+    margin: 0;
+}
+
+body{
+	background-color: black;
+	background-image: url('Images/backgroundImg.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+.navigationbar{
+	margin: auto;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+	font-family: 'Trebuchet MS', sans-serif;
+} 
+.navigationbar ul{
+	margin: auto;
+	justify-content: center;
+}
+.navigationbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: auto;
+	justify-content: center;
+}
+.navigationbar ul li a{
+	text-decoration: none;
+	color: whitesmoke;
+	text-transform: capitalize;
+	padding: 35px;
+	justify-content: center;
+	font-size: 30px;
+}
+.navigationbar ul li a:hover{
+	color: blue;
+}
+.nameTitle{
+	padding-right: 600px;
+}
+.pfp{
+	border-radius: 50%;
+	border-style: solid;
+	border-color: whitesmoke;
+	margin-top: 3%;
+	margin-right: 5%;
+}
+
+.intro{
+	margin: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: whitesmoke;
+	font-size: 24px;
+	max-width: 95%;
+}
+.intro p{
+	background-color: grey;
+	border-color: whitesmoke;
+	border-style: solid;
+	border-radius: 3%;
+	padding: 1%;
+	margin-top: 3%;
+}
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px;
+    padding: 22px;
+}
+
+.game-grid li {
+	background-color: grey;
+    border: 2px solid whitesmoke;
+    border-radius: 5%;
+    padding: 2px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.game-grid li img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+
+
+.game-grid li p {
+    font-size: 2rem;
+    color: black;
+    padding: 10px;
+}
