@@ -87,8 +87,8 @@ body{
 
 .game-grid li img {
     max-width: 100%;
-    height: auto;
-    width: auto;
+    height: 80%;
+    width: 95%;
     border-radius: 5%;
     border: 1px solid black;
 }
@@ -96,6 +96,6 @@ body{
 
 .game-grid li p {
     font-size: 2rem;
-    color: black;
+    color: whitesmoke;
     padding: 10px;
 }
