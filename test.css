@@ -62,21 +62,26 @@
         section {
             padding: 60px 20px;
             text-align: center;
+            display: flex;
         }
 
         .container {
             width: 85%;
             max-width: 1200px;
             margin: 0 auto;
-
         }
+
+        .skill:hover {
+    		transform: scale(1.05);
+    		box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+		}
 
         .profile {
             background-color: #FFFFFF;
             padding: 50px;
             border-radius: 12px;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-            display: flex;
+            display: inline-block;
         }
 
         .profile h2 {
